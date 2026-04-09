@@ -1,0 +1,86 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hang Gao
+    - name: Email
+      value: hg467@cornell.edu
+    - name: Location
+      value: Ithaca, NY
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Mechanical Engineering
+      institution: Cornell University, Ithaca, NY
+      year: 2022 - 2027
+      description:
+        - "Advisor: Prof. E. Farrell Helbling"
+        - "Research: Insect-scale flapping-wing robotics, interfacial flight"
+    - title: M.S. in Mechanical Engineering
+      institution: University of California San Diego, San Diego, CA
+      year: 2020 - 2022
+      description:
+        - "Advisor: Prof. Nick Gravish"
+    - title: B.E. in Mechanical Design, Manufacturing & Automation
+      institution: Anhui University of Science and Technology, Huainan, China
+      year: 2016 - 2020
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: "GammaBot: Interfacial Flight of an Insect-Scale Robot"
+      institution: Cornell University, Prof. E. Farrell Helbling
+      year: 2022 - Present
+      description:
+        - Led end-to-end development of an untethered 961 mg flapping-wing robot for water-surface locomotion
+        - Developed planar rigid-body dynamics with hydrodynamic drag and actuator thrust mapping
+        - Implemented 679 Hz onboard EKF + feedforward/feedback PID control on STM32
+        - Demonstrated 0.89 m/s forward speed, 400 deg/s turning, >10 min endurance
+    - title: Compliant Thorax Design for Flapping-Wing Robots
+      institution: UC San Diego, Prof. Nick Gravish
+      year: 2021 - 2022
+      description:
+        - Designed compliant thorax/transmission mechanisms in SCM composites
+        - Optimized wing frame to double flapping-robot lift-off payload to 8 g
+    - title: Raibert-Control of Hopper Robot
+      institution: UC San Diego, Prof. Nick Gravish
+      year: 2021
+      description:
+        - Built 3D hopper URDF/PyBullet model for controller development
+        - Implemented Raibert, PID, and LQR controllers for stable locomotion
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: "TA, MAE 5780 Feedback Control"
+      institution: Cornell University
+      year: Fall 2023
+    - title: "TA, ECE 4160/5160 FastRobots"
+      institution: Cornell University
+      year: Fall 2023
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2018
+      items:
+        - Third Prize, National ROBOCON 2018
+        - Honorable Mention, MCM/ICM 2018
+        - Second Prize, China Undergraduate Mathematical Contest in Modeling (Anhui)
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - "Python, C++, C, MATLAB, Simulink, LabVIEW"
+    - title: Simulation & Robotics
+      items:
+        - "PyBullet, URDF, reinforcement learning, sensor fusion/EKF, trajectory generation"
+    - title: Hardware & Embedded
+      items:
+        - "STM32, Arduino, FlexPCB, piezoelectric actuation, IMU/magnetometer integration"
+    - title: CAD & Design
+      items:
+        - "SolidWorks, Onshape, Altium, AutoCAD, ANSYS"
