@@ -69,24 +69,28 @@ layout: default
       <h2 style="margin-top: 25px; margin-bottom: 10px">
         <a>Selected Projects</a>
       </h2>
-      <div class="row">
-        <div class="col-sm-6 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 col-md-4 mb-3">
           <div class="card h-100">
-            <img src="{{ '/assets/img/Manipulator.gif' | relative_url }}" class="card-img-top img-fluid" alt="Manipulator" loading="lazy">
+            <div class="text-center p-2">
+              <img src="{{ '/assets/img/Manipulator.gif' | relative_url }}" alt="Manipulator" loading="lazy" style="max-height: 200px;">
+            </div>
             <div class="card-body">
               <h5 class="card-title">Robotic Manipulator Control</h5>
-              <p class="card-text" style="font-size: 0.9rem;">
+              <p class="card-text" style="font-size: 0.85rem;">
                 Trajectory planning and control of a multi-DOF robotic manipulator with inverse kinematics and motion planning.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 mb-3">
+        <div class="col-sm-5 col-md-4 mb-3">
           <div class="card h-100">
-            <img src="{{ '/assets/img/Hopper.gif' | relative_url }}" class="card-img-top img-fluid" alt="Hopper Robot" loading="lazy">
+            <div class="text-center p-2">
+              <img src="{{ '/assets/img/Hopper.gif' | relative_url }}" alt="Hopper Robot" loading="lazy" style="max-height: 200px;">
+            </div>
             <div class="card-body">
               <h5 class="card-title">Hopper Robot</h5>
-              <p class="card-text" style="font-size: 0.9rem;">
+              <p class="card-text" style="font-size: 0.85rem;">
                 3D hopper simulation in PyBullet with Raibert, PID, and LQR controllers for stable locomotion on uneven terrain.
               </p>
             </div>

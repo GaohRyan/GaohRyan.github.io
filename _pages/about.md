@@ -22,11 +22,11 @@ I am leading the end-to-end development of **GammaBot**, an untethered 961 mg fl
 
 Previously, I received my M.S. in Mechanical Engineering from the University of California San Diego, where I worked with [Prof. Nick Gravish](https://gravishlab.ucsd.edu/) on compliant thorax design for flapping-wing robots.
 
-<div class="row mt-4 mb-3">
-  <div class="col-sm-6">
-    {% include figure.liquid loading="eager" path="assets/img/Gammabot_overview.jpg" class="img-fluid rounded z-depth-1" alt="GammaBot overview" %}
+<div class="row mt-4 mb-3 justify-content-center">
+  <div class="col-auto">
+    <img src="/assets/img/Gammabot_overview.jpg" class="rounded z-depth-1" alt="GammaBot overview" style="max-height: 150px;">
   </div>
-  <div class="col-sm-6">
-    {% include figure.liquid loading="eager" path="assets/img/GammaBot.gif" class="img-fluid rounded z-depth-1" alt="GammaBot in action" %}
+  <div class="col-auto">
+    <img src="/assets/img/GammaBot.gif" class="rounded z-depth-1" alt="GammaBot in action" style="max-height: 150px;">
   </div>
 </div>
