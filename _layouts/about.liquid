@@ -99,6 +99,92 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Undergraduate Projects -->
+    {% if page.undergrad_projects %}
+      <h2 style="margin-top: 25px; margin-bottom: 10px">
+        <a>Undergraduate Projects</a>
+      </h2>
+      <p style="font-size: 0.9rem; margin-bottom: 12px;">
+        Earlier hands-on work at AUST shaped my foundation in robot design, embedded sensing, localization, actuation, and manufacturable CAD.
+      </p>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-3">
+          <div class="card h-100">
+            <div class="p-2">
+              <div class="row no-gutters">
+                <div class="col-6 pr-1">
+                  <img
+                    src="{{ '/assets/img/undergrad_wheeled_robot_design_2018.png' | relative_url }}"
+                    alt="Four-wheeled robot CAD design"
+                    loading="lazy"
+                    class="rounded z-depth-1"
+                    style="height: 190px; width: 100%; object-fit: contain; background: #f8f9fa;"
+                  >
+                </div>
+                <div class="col-6 pl-1">
+                  <img
+                    src="{{ '/assets/img/undergrad_wheeled_robot_prototype_2018.jpg' | relative_url }}"
+                    alt="Four-wheeled robot prototype"
+                    loading="lazy"
+                    class="rounded z-depth-1"
+                    style="height: 190px; width: 100%; object-fit: cover;"
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-1 text-muted" style="font-size: 0.72rem;">
+                <span>CAD design</span>
+                <span>Prototype</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Four-Wheeled Robot Design and Control</h5>
+              <p class="card-text" style="font-size: 0.85rem;">
+                Sept. 2017 - Nov. 2018, with Prof. Chengjun Wang. Developed a Mecanum-wheel robot platform with STM32F4 sensing, gyroscope/encoder fusion, localization, pneumatic transmission, and manipulator integration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="text-center p-2">
+              <img
+                src="{{ '/assets/img/undergrad_hand_design_2017.jpg' | relative_url }}"
+                alt="Flexible robotic hand prototype"
+                loading="lazy"
+                class="rounded z-depth-1"
+                style="height: 190px; width: 100%; object-fit: cover; object-position: center 35%;"
+              >
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Flexible Robotic Hand Prototype</h5>
+              <p class="card-text" style="font-size: 0.85rem;">
+                Built early manipulation hardware with flexible sensing modules and compact electromechanical integration for hands-on robotics experiments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="text-center p-2">
+              <img
+                src="{{ '/assets/img/undergrad_injection_mold_design_2019.jpg' | relative_url }}"
+                alt="Injection mold CAD design"
+                loading="lazy"
+                class="rounded z-depth-1"
+                style="height: 190px; width: 100%; object-fit: cover;"
+              >
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Injection Mold Design</h5>
+              <p class="card-text" style="font-size: 0.85rem;">
+                Practiced manufacturability-aware CAD through mold assembly design, mechanism constraints, spring-loaded components, and parting-line considerations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
