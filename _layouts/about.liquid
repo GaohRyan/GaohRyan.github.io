@@ -69,6 +69,27 @@ layout: default
       <h2 style="margin-top: 25px; margin-bottom: 10px">
         <a>Selected Projects</a>
       </h2>
+      <!-- Row 1: full-width Crazyflie residual RL project -->
+      <div class="row">
+        <div class="col-12 mb-3">
+          <div class="card h-100">
+            <div class="text-center p-2">
+              <video
+                src="{{ '/assets/video/Crazyflie_residual_Isaac_compare.mp4' | relative_url }}"
+                autoplay loop muted playsinline
+                style="max-width: 100%; height: auto; border-radius: 4px;">
+              </video>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Data-Efficient Residual RL for Robot Flight Control</h5>
+              <p class="card-text" style="font-size: 0.85rem;">
+                Sim-to-real residual reinforcement learning on top of a domain-randomized base policy for quadrotor hover, achieving <strong>+69.6% mean RMSE reduction (0.482 m &rarr; 0.147 m, 5-seed mean)</strong> under combined mass + inertia perturbation; cross-simulator transfer from L2F to Isaac Sim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row 2: original two projects unchanged -->
       <div class="row">
         <div class="col-sm-6 mb-3">
           <div class="card h-100">
