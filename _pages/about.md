@@ -25,9 +25,9 @@ Previously, I received my M.S. in Mechanical Engineering from the University of 
 
 <div class="row mt-4 mb-3 justify-content-center">
   <div class="col-auto">
-    <img src="/assets/img/GammaBot_river.jpg" class="rounded z-depth-1" alt="GammaBot on a river" style="max-height: 300px;">
+    <img src="/assets/img/GammaBot_river.jpg" class="rounded z-depth-1" alt="GammaBot on a river" style="height: 300px; width: auto; max-width: 100%; object-fit: contain;">
   </div>
   <div class="col-auto">
-    <img src="/assets/img/GammaBot.gif" class="rounded z-depth-1" alt="GammaBot in action" style="max-height: 300px;">
+    <img src="/assets/img/GammaBot.gif" class="rounded z-depth-1" alt="GammaBot in action" style="height: 300px; width: auto; max-width: 100%; object-fit: contain;">
   </div>
 </div>
