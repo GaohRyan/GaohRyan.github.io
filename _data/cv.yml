@@ -33,7 +33,7 @@
       institution: Cornell University, Prof. E. Farrell Helbling
       year: 2022 - Present
       description:
-        - Led end-to-end development of an untethered 961 mg flapping-wing robot for water-surface locomotion
+        - Led end-to-end development of an untethered sub-1-gram flapping-wing robot for water-surface locomotion
         - Developed planar rigid-body dynamics with hydrodynamic drag and actuator thrust mapping
         - Implemented 679 Hz onboard EKF + feedforward/feedback PID control on STM32
         - Demonstrated 0.89 m/s forward speed, 400 deg/s turning, >10 min endurance
