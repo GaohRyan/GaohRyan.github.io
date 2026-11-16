@@ -95,12 +95,12 @@ layout: default
           <div class="card h-100">
             <div class="text-center p-2">
               <video
-                src="{{ '/assets/video/G1_dodge_step.mp4' | relative_url }}"
+                src="{{ '/assets/video/G1_dodge_step_ref.mp4' | relative_url }}"
                 autoplay loop muted playsinline
                 style="max-width: 100%; height: auto; border-radius: 4px;">
               </video>
               <video
-                src="{{ '/assets/video/G1_bear_shake.mp4' | relative_url }}"
+                src="{{ '/assets/video/G1_bear_shake_ref.mp4' | relative_url }}"
                 autoplay loop muted playsinline
                 style="max-width: 100%; height: auto; border-radius: 4px;">
               </video>
@@ -108,7 +108,7 @@ layout: default
             <div class="card-body">
               <h5 class="card-title">Humanoid Motion Tracking from Human Video</h5>
               <p class="card-text" style="font-size: 0.85rem;">
-                A Unitree G1 (right, simulation) tracks two dance motions that exist only as monocular video (left): a dodge step and a bear shake. The motions are reconstructed with GVHMR and retargeted with OmniRetarget, then tracked by a world-model policy from my reproduction of SuperMimic, trained on 40 LAFAN clips and <strong>fine-tuned for 18 minutes</strong> on the new motions (whole-clip tracking return 0.94 and 0.88).
+                A Unitree G1 (right, simulation; the translucent blue robot is the reference) tracks two dance motions that exist only as monocular video (left): a dodge step and a bear shake. The motions are reconstructed with GVHMR and retargeted with OmniRetarget, then tracked by a world-model policy from my reproduction of SuperMimic, trained on 40 LAFAN clips and <strong>fine-tuned for 18 minutes</strong> on the new motions (whole-clip tracking return 0.94 and 0.88).
               </p>
             </div>
           </div>
