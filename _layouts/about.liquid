@@ -114,6 +114,31 @@ layout: default
           </div>
         </div>
       </div>
+      <!-- Row 1c: humanoid stair climbing with a height scan -->
+      <div class="row">
+        <div class="col-12 mb-3">
+          <div class="card h-100">
+            <div class="text-center p-2">
+              <video
+                src="{{ '/assets/video/G1_stairs_up_20cm.mp4' | relative_url }}"
+                autoplay loop muted playsinline
+                style="max-width: 49%; height: auto; border-radius: 4px;">
+              </video>
+              <video
+                src="{{ '/assets/video/G1_stairs_down_20cm.mp4' | relative_url }}"
+                autoplay loop muted playsinline
+                style="max-width: 49%; height: auto; border-radius: 4px;">
+              </video>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Perceptive Stair Climbing for a Humanoid (2026)</h5>
+              <p class="card-text" style="font-size: 0.85rem;">
+                The same world-model tracking policy, extended with a 17&times;11 height scan, runs up and walks down 20 cm stairs while following flat-ground LAFAN motions (the translucent blue robot is the reference; dots are the scan the policy sees; the plot shows keypoint error). The algorithm is unchanged: the world model reads the terrain at its predicted poses during imagination. On 20 cm steps it stays up in <strong>93% (up) and 92% (down)</strong> of 10 s windows, versus 8% and 27% before training, and drops to 0&ndash;3% when the scan is flattened, while flat-ground tracking is unchanged (40/40 clips, 0.824).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Row 2: original two projects unchanged -->
       <div class="row">
         <div class="col-sm-6 mb-3">
