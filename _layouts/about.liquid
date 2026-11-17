@@ -133,7 +133,7 @@ layout: default
             <div class="card-body">
               <h5 class="card-title">Perceptive Stair Climbing for a Humanoid (2026)</h5>
               <p class="card-text" style="font-size: 0.85rem;">
-                The same world-model tracking policy, extended with a 17&times;11 height scan, runs up and walks down 20 cm stairs while following flat-ground LAFAN motions (the translucent blue robot is the reference; dots are the scan the policy sees; the plot shows keypoint error). The algorithm is unchanged: the world model reads the terrain at its predicted poses during imagination. On 20 cm steps it stays up in <strong>93% (up) and 92% (down)</strong> of 10 s windows, versus 8% and 27% before training, and drops to 0&ndash;3% when the scan is flattened, while flat-ground tracking is unchanged (40/40 clips, 0.824). Code and notes: <a href="https://github.com/GaohRyan/supermimic-g1-harry">github.com/GaohRyan/supermimic-g1-harry</a>.
+                The same world-model tracking policy, extended with a 17&times;11 height scan, runs up and walks down 20 cm stairs while following flat-ground LAFAN motions (blue: the reference; dots: the height scan the policy sees; bottom: tracking error). The algorithm is unchanged: the world model reads the terrain at its predicted poses during imagination. On 20 cm steps it stays up in <strong>93% (up) and 92% (down)</strong> of 10 s windows, versus 8% and 27% before training, and drops to 0&ndash;3% when the scan is flattened, while flat-ground tracking is unchanged (40/40 clips, 0.824). Code and notes: <a href="https://github.com/GaohRyan/supermimic-g1-harry">github.com/GaohRyan/supermimic-g1-harry</a>.
               </p>
             </div>
           </div>
